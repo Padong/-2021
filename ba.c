@@ -14,7 +14,6 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 	
-	
 	if(strcmp(argv[2],"-i") == 0){
 		fp = fopen(argv[1], "w");
 
