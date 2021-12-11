@@ -56,7 +56,6 @@ int writeCell(FILE *fp, long cellIndex, long cellValue){
 		fseek(fp, cellIndex*(size+5) , cellIndex < 0 ? SEEK_END : SEEK_SET);
 		fprintf(fp, "%*s ", size, cellValue);
 }
-
 //오류
 int readCell(FILE *fp, long cellIndex, long *cellBuf){
 //	for(i = 3; i < argc; i++){
