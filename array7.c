@@ -6,8 +6,6 @@ void printArray(int arr[static 5], int count)    // 배열 요소의 최소 개�
     {
         printf("%d ", arr[i]);
     }
-
-    printf("\n");
 }
 
 int main()
