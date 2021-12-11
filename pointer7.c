@@ -1,6 +1,6 @@
 void swapNumber(int first, int second)    // 반환값 없음, int형 매개변수 두 개 지정
 {
-    int temp;    // 임시 보관 변수
+    int temp;   
 
     temp = first;
     first = second;
