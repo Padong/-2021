@@ -21,8 +21,6 @@ void main()
         count++;
     }
  
-    
- 
     printf("\n");
     Sleep(500);
     printf("[*] WAIT, StrCpySelfMade function is running...\n");
