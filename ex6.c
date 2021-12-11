@@ -102,7 +102,7 @@ int StrNCmpSelfMade(const char* s1, const char* s2, int N)
         }
  
     }
-    return 0;
+    return 1;
  
  
 }
