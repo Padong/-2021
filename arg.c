@@ -58,7 +58,6 @@ int main(int argc, char **argv)
 			fscanf(fp, "%s", buf);
 			printf("%s ", buf);
 		}
-		printf("\n");
 	}
 	fclose(fp);
 }
