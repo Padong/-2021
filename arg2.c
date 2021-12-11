@@ -8,5 +8,7 @@ int main(int argc, char **argv){
 	f = fopen("table1.txt", "w+b");
 	fseek(f, 100, SEEK_SET);
 	fwrite(&i,sizeof(int), 1, f);
+	
 	fclose(f);
+
 }
