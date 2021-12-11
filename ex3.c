@@ -45,8 +45,7 @@ void StrCpySelfMade(char* s1, const char* s2)
     for (i = 0; s2[i] != '\0'; i++)
         s1[i] = s2[i];
  
-    // s2[i] = '\0'
-    // s1의 마지막에 '\0'을 입력해서 문자열의 끝을 알립니다
+
     s1[i] = s2[i];
  
 }
