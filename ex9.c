@@ -23,8 +23,7 @@ void main()
             printf("%d ", count);
         }
     }
- 
-    printf("\n");
+
 }
  
  
