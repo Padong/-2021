@@ -10,4 +10,3 @@ int main(int argc, char **argv){
 	fwrite(&i,sizeof(int), 1, f);
 	fclose(f);
 }
-
