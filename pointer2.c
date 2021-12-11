@@ -6,7 +6,7 @@ double num02 = 3.14;
 
 int* ptr_num01 = &num01;
 
-double* ptr_num02 = &num02;  
+double* ptr_num02 = &num02; 
 
  
 printf("포인터의 크기는 %d입니다.\n", sizeof(ptr_num01));
