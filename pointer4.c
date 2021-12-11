@@ -6,7 +6,7 @@ void main()
 	int A;
 	Ptr = &A;
 
-	printf("\n\n\n\n");
+	printf("\n\n");
 
 	A = 10;
 	printf(" A 초기값 : %d \n", A);
