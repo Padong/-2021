@@ -5,7 +5,6 @@ void double_f(int* input, int* output)
 	*output = *input * 2;
 	return;
 }
-
 void main()
 {
 	int A = 10;
