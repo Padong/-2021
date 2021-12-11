@@ -65,7 +65,7 @@ void main()
             alphabetCounter2[c - 35] += 1;
         }
     }
- 
+
     for (count = 0; count < sizeof(alphabetCounter)/sizeof(int) ; count++)
     {
         if (alphabetCounter[count] != 0)
